@@ -540,6 +540,10 @@ body {
 
 /*benefits styles start*/
 
+.benefits{
+    margin-bottom: 131px;
+}
+
 .benefits_wrap {
     max-width: 1262px;
     background-color: white;
@@ -569,8 +573,9 @@ body {
     padding:  0 100px;
 }
 
-.benefts_card {
+.benefits_card {
     grid-column: span 1;
+    margin-bottom: 108px;
 }
 
 
@@ -595,10 +600,19 @@ body {
 }
 
 .benefits_card-more {
+    display: inline-block;
+    padding-right: 59px;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     color: #006DFE;
+    text-decoration: none;
+    background: url(../img/svg/arrow_right-icon.svg) no-repeat 95% center;
+    transition: 0.2s all;
+}
+
+.benefits_card-more:hover, .benefits_card-more:focus {
+    background: url(../img/svg/arrow_right-icon.svg) no-repeat right center
 }
 
 /*benefits styles end*/
