@@ -418,6 +418,11 @@ body {
     margin: 0 auto;
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /*header styles start*/
 .header {
@@ -561,9 +566,40 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
+    padding:  0 100px;
+}
+
+.benefts_card {
+    grid-column: span 1;
 }
 
 
+.benefits_card-pic {
+    max-width: 66px;
+    margin-bottom: 37px;
+}
+
+.benefits_card-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.benefits_card-desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+
+.benefits_card-more {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+}
 
 /*benefits styles end*/
 
