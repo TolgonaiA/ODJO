@@ -876,8 +876,20 @@ body {
     margin-bottom: 31px;
 }
 
+.top_card-more {
+    padding: 12px 19px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #006DFE;
+}
 
 
+.top_card-more:hover , .top_card-more:focus {
+    background: #6b9fe4;
+}
 
 
 
