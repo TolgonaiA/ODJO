@@ -499,6 +499,7 @@ body {
 }
 
 .header_burger {
+    display: none;
     width: 40px;
     height: 28px;
     position: relative;
@@ -510,6 +511,20 @@ body {
     height: 2px;
     background-color: white;
     position: absolute;
+    left: 0;
+}
+
+.burger_line_first {
+    top: 0;
+}
+
+.burger_line_second {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger_line_third {
+    bottom: 0;
 }
 
 /*header styles end*/
@@ -996,3 +1011,13 @@ body {
 }
 
 /*footer styles end*/ 
+
+/*media start*/
+
+@media screen and (max-width: 1120px){
+    .header_burger {
+        display: block;
+    }
+}
+
+/*media end*/
