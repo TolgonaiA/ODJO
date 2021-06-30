@@ -1016,6 +1016,37 @@ img {
 
 /*media start*/
 
+@media  screen and (max-width: 967px) {
+    .benefits {
+        margin-bottom: 75px;
+    }
+    .search-form_field {
+        margin-bottom: 25px;
+    }
+    .benefits_cards {
+        padding: 0 15px;
+        grid-column-gap: 35px;
+    }
+    .benefits_card {
+        margin-bottom: 60px;
+    }
+    .benefits_title {
+        padding: 55px 15px;
+    }
+    .benefits_wrap {
+        box-shadow: none;
+    }
+    .places_card_size_lg {
+        grid-column: span 6;
+    }
+    .places_card_size_small {
+        grid-column: span 6;
+        height: 283px;
+        margin-bottom: 10px;
+    }
+}
+
+
 @media screen and (max-width: 767px){
     .header_burger {
         display: block;
